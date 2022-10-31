@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+}
+
+h1, h2{
+    color: teal;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+h2{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: teal;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
